@@ -1,4 +1,4 @@
 ShoeAPI
 
 
-A API about shoes built in Django!
+An API about shoes built in Django!
