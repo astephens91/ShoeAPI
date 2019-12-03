@@ -20,7 +20,7 @@ from django.conf.urls import url, include
 from rest_framework import routers
 
 from shoes import views
-from shoes.models import ShoeColor, ShoeType, Shoe, Manfacturer
+from shoes.models import ShoeColor, ShoeType, Shoe, Manufacturer
 
 router = routers.DefaultRouter()
 router.register(r'shoe', views.ShoeView)
